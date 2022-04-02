@@ -1,0 +1,21 @@
+{
+  "private": true,
+  "license": "(CC-BY-NC-4.0 OR Apache-2.0)",
+  "author": "Brian Holt <btholt+next-course-starter@gmail.com>",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "export": "next build && next export",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.1.1",
+    "gray-matter": "^4.0.3",
+    "highlight.js": "^11.4.0",
+    "marked": "^4.0.9",
+    "next": "^12.0.7",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "title-case": "^3.0.3"
+  }
+}

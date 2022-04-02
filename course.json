@@ -1,0 +1,17 @@
+{
+  "author": {
+    "name": "Brian Holt",
+    "company": "Stripe"
+  },
+  "title": "Next.js Course Starter Kit",
+  "subtitle": "for Frontend Masters",
+  "frontendMastersLink": "https://frontendmasters.com/courses/complete-react-v6/",
+  "social": {
+    "linkedin": "btholt",
+    "github": "btholt",
+    "twitter": "holtbt"
+  },
+  "description": "A starter kit for making really amazing courses, optimized for Frontend Masters",
+  "keywords": ["your", "Google", "keywords", "here"],
+  "productionBaseUrl": "/next-course-starter"
+}

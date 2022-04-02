@@ -1,0 +1,54 @@
+.footer {
+  width: 100%;
+  padding: 50px 15px;
+  background-color: var(--primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-footer);
+}
+
+.socials {
+  display: flex;
+  align-items: center;
+  max-width: 900px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.social {
+  display: inline-block;
+  list-style: none;
+  margin-right: 40px;
+}
+
+.social img:hover {
+  opacity: 0.4;
+}
+
+.social img {
+  transition: opacity 0.25s;
+  width: 30px;
+}
+
+.terms {
+  font-size: 10px;
+}
+
+.terms p {
+  margin: 3px;
+}
+
+.footer a {
+  color: inherit;
+  text-decoration: underline;
+}
+
+.social svg {
+  transition: opacity 0.25s;
+}
+
+.social svg:hover {
+  opacity: 0.4;
+}
