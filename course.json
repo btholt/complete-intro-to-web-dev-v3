@@ -3,15 +3,15 @@
     "name": "Brian Holt",
     "company": "Stripe"
   },
-  "title": "Next.js Course Starter Kit",
-  "subtitle": "for Frontend Masters",
-  "frontendMastersLink": "https://frontendmasters.com/courses/complete-react-v6/",
+  "title": "Complete Intro to Web Dev",
+  "subtitle": "v3",
+  "frontendMastersLink": "https://frontendmasters.com/workshops/web-development-v3/",
   "social": {
     "linkedin": "btholt",
     "github": "btholt",
     "twitter": "holtbt"
   },
-  "description": "A starter kit for making really amazing courses, optimized for Frontend Masters",
-  "keywords": ["your", "Google", "keywords", "here"],
-  "productionBaseUrl": "/next-course-starter"
+  "description": "Learn to be a web developer from nothing from industry veteran Brian Holt",
+  "keywords": ["web dev", "web developer", "css", "javascript", "html", "visual studio code", "learn to code"],
+  "productionBaseUrl": "/complete-intro-to-web-dev-v3"
 }

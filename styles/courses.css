@@ -393,7 +393,7 @@ ol.sections-name .lesson-preface {
   position: relative;
   align-items: center;
   justify-content: center;
-  background: #93aca7;
+  background: var(--secondary);
   font-size: 30px;
   padding: 25px;
   width: 30%;

@@ -1,15 +1,15 @@
 :root {
-  --primary: #dfa067;
-  --secondary: #93aca7;
-  --highlight: #224159;
+  --primary: lavender;
+  --secondary: lightslategray;
+  --highlight: #281750;
 
   --text-header: var(--primary);
   --text-main-headers: var(--highlight);
-  --text-links: #007bff;
+  --text-links: #51178c;
   --text-footer: #333;
 
   --bg-main: white;
-  --bg-dots: var(--highlight);
+  --bg-dots: var(--text-links);
   --bg-lesson: white;
 
   --nav-buttons: var(--highlight);
@@ -17,7 +17,8 @@
 
   --corner-active: var(--highlight);
   --corner-inactive: #f4f4f4;
-  --icons: var(--highlight);
+  --icons: var(--primary);
+  --footer-icons: var(--highlight);
 
   --emphasized-bg: #dce8ff;
   --emphasized-border: #aab6d2;
