@@ -5,13 +5,6 @@ import getCourseConfig from "../../../data/course";
 import Corner from "../../../components/corner";
 import { Context } from "../../../context/headerContext";
 
-// export const meta = (routeData) => {
-//   return {
-//     title: `${routeData.data.section} – ${routeData.data.title}`,
-//     description: routeData.data.attributes.description,
-//   };
-// };
-
 export default function LessonSlug({ post }) {
   const courseInfo = getCourseConfig();
   const [_, setHeader] = useContext(Context);
@@ -36,7 +29,7 @@ export default function LessonSlug({ post }) {
       <Head>
         <title>{title}</title>
         <meta name="description" content={description}></meta>
-        {/* <meta name="keywords" content={courseInfo.keywords.join(",")}></meta> */}
+        <meta name="keywords" content={courseInfo.keywords.join(",")}></meta>
         <meta name="og:description" content={description}></meta>
         <meta name="og:title" content={title}></meta>
         <meta

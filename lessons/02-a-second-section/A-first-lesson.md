@@ -1,5 +1,0 @@
-- this
-- is
-- the
-- second
-- lesson

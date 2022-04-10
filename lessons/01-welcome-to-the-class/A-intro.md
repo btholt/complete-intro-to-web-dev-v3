@@ -1,0 +1,56 @@
+---
+title: "Introduction"
+description: "The introduction to this course."
+---
+
+- Intro
+  - Getting stuff set up
+    - Visual Studio Code
+    - Browser
+  - What is coding? What are you going to be learning?
+  - HTML vs CSS vs JavaScript
+- HTML
+  - What is a tag?
+  - A few types of tags
+  - Nesting tags
+  - HTML Attributes
+  - Organizing HTML
+  - head / meta
+- Project Blog
+- CSS
+  - HTML and CSS go together
+  - What are HTML classes?
+  - What are CSS rules and attributes?
+  - CSS Dev Tools in browser
+  - Stylesheets and link tags
+  - Let's style our blog
+  - CSS Specificity
+  - Flexbox
+  - Grid
+- Project E-Commerce Site
+- JavaScript
+  - What is code, how does it run?
+  - script tag on a page
+  - variables
+  - console.log
+  - if statements
+  - functions / scope
+  - the DOM
+  - responding to a button press
+  - objects / methods
+  - arrays
+  - for / while loops
+  - reading data from a form
+  - Let's add JS to our blog
+- Project Textle
+- Project macOS Calculator
+- APIs / AJAX
+  - fetch
+  - GET vs POST
+  - JSON
+- Project Pet Search
+- Little Lecture on "Things devs need to know"
+  - Git & GitHub
+  - Terminal, PS/ZSH/Bash
+  - Node.js
+  - Frameworks

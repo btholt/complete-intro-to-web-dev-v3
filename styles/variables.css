@@ -1,6 +1,6 @@
 :root {
   --primary: lavender;
-  --secondary: lightslategray;
+  --secondary: #281750;
   --highlight: #281750;
 
   --text-header: var(--primary);

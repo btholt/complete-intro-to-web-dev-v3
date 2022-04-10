@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Script from "next/script";
 
 import Footer from "./footer";
 import Header from "./header";
@@ -23,6 +24,7 @@ function Layout({ children }) {
             linkedin={courseInfo.social.linkedin}
           />
         </div>
+        <Script src="https://storage.googleapis.com/app.klipse.tech/plugin_prod/js/klipse_plugin.min.js" />
       </HeaderProvider>
     </CourseInfoProvider>
   );

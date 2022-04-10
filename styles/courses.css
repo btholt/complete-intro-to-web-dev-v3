@@ -510,3 +510,20 @@ ol.sections-name .lesson-details {
   line-height: 24px;
   padding: 0px 5px;
 }
+
+.klipse-result {
+  margin: 20px 0;
+  border: 2px solid var(--secondary);
+  border-radius: 5px;
+  position: relative;
+  overflow: hidden;
+}
+
+.klipse-result::before {
+  background-color: #fff;
+  color: var(--secondary);
+  content: "result";
+  height: 13px;
+  position: absolute;
+  top: -13px;
+}
