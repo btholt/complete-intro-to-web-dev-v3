@@ -10,7 +10,7 @@ In that folder, make a file called index.html. Why index? By convention that is 
 
 Okay, so now you have an index.html file, put this in there (this will be the start of your project in the next lesson.)
 
-```html
+```klipse-html
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -39,13 +39,13 @@ This is the barebones skeleton of an HTML. You can literally just copy/paste thi
 
 Let's talk about one second having multiple HTML docs in one project. Put this tag in the index.html we created.
 
-```html
+```klipse-html
 <a href="about.html">About</a>
 ```
 
 Then create a new file called about.html (must be in same directory) and put this in there:
 
-```html
+```klipse-html
 <!DOCTYPE html>
 <html lang="en">
   <head>

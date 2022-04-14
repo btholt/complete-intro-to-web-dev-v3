@@ -8,6 +8,10 @@ import hljs from "highlight.js";
 marked.setOptions({
   baseUrl: process.env.BASE_URL ? process.env.BASE_URL + "/" : "/",
   highlight: function (code, lang) {
+    if (lang.startsWith("klipse")) {
+      return code;
+    }
+
     const language = hljs.getLanguage(lang) ? lang : "plaintext";
     return hljs.highlight(code, { language }).value;
   },

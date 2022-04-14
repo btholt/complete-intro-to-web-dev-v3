@@ -8,7 +8,7 @@ A really good example we have seen already is the `href` attribute of the `<a hr
 
 Another one we say is the `type` attribute on the `input`. By changing the type you're changing what sort of input is being show
 
-```html
+```klipse-html
 <!-- The default, if you leave off the type you get the "text" type -->
 <input type="text" />
 
@@ -22,7 +22,7 @@ Another one we say is the `type` attribute on the `input`. By changing the type 
 
 `href` and `type` are specific to a few tags. There are other attributes like `class` and `id` that are universal and can be applied to (nearly) all tags. These themselves are inert; they don't do anything, but allow other things to find them later (we'll cover them heavily in CSS and JS sections.)
 
-```html
+```klipse-html
 <h3 class="the-red-one">This one is red</h3>
 <h3 class="the-blue-one">This one is blue</h3>
 
@@ -40,7 +40,7 @@ Another one we say is the `type` attribute on the `input`. By changing the type 
 
 Classes are more useful than IDs. You should use them 95% of the time. A class is reusable. Now I could create another tag (doesn't even have to be another h3) and that CSS style would be reapplied to it! You can also give multiple classes to one tag.
 
-```html
+```klipse-html
 <h3 class="the-red-one bolded">This is red and bold</h3>
 
 <style>
@@ -56,7 +56,7 @@ Classes are far more useful. However there are IDs that you may need occasionall
 
 Again, in general, even if you happen to have just one of something, it's best to just use classes for everything and more-or-less pretend that IDs are not an option at all. You really only want to use IDs when something is unique and you want to make sure it stays unique. A good example is if you have a JavaScript app that needs to put its HTML inside a specific div, you could use an ID for that (you could still use a class and some people do.)
 
-```html
+```klipse-html
 <h3 id="brand">My Site's Branding</h3>
 ```
 

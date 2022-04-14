@@ -8,7 +8,7 @@ We're going to start building our very first website. At first our website is go
 
 HTML's base building block is the **tag**. A tag is a building block. It describes what's inside it. Every tag has an opening and a closing tag (some tags open and close at the same point.) I think the easiest way to learn it is just to show a bunch of examples.
 
-```html
+```klipse-html
 <h1>This is the title to my document</h1>
 ```
 
@@ -22,7 +22,7 @@ A tag, whether it's opening or closing, are surrounded by angle brackets, `<` an
 
 Tags are also opened and closed in a specific order too. The most recently opened tag must be the next closed tag. For example, if I have an h1 instead of a div, the h1 must be closed first.
 
-```html
+```klipse-html
 <div>
   <h1>Hi</h1>
 </div>
@@ -30,7 +30,7 @@ Tags are also opened and closed in a specific order too. The most recently opene
 
 The above is correct.
 
-```htm
+```html
 <div>
   <h1>
     Hi

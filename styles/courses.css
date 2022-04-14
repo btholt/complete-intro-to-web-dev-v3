@@ -516,7 +516,7 @@ ol.sections-name .lesson-details {
   border: 2px solid var(--secondary);
   border-radius: 5px;
   position: relative;
-  overflow: hidden;
+  padding: 10px;
 }
 
 .klipse-result::before {
@@ -526,4 +526,8 @@ ol.sections-name .lesson-details {
   height: 13px;
   position: absolute;
   top: -13px;
+}
+
+.klipse-result li {
+  list-style-position: inside;
 }

@@ -7,7 +7,7 @@ Let's talk about organizing HTML and how to make the most of it. This will help 
 
 Let's say you're making a social media website and you're going to make the "news feed" section where you can see all the updates from your friends. A user would expect see a bunch of posts. Each post could have an author, a date that it was posted, a profile picture, and the message itself the user posted. Let's model that as HTML
 
-```html
+```klipse-html
 <div>
   <h2>@sassy_pants_mcgee</h2>
   <h3>Posted 15m ago</h3>
@@ -23,7 +23,7 @@ Notice we keep everything together with a div. Like I said before, it's a contai
 
 Let's make this better. Let's add classes.
 
-```html
+```klipse-html
 <div class="social-post">
   <h2 class="user-name">@sassy_pants_mcgee</h2>
   <h3 class="posted-date">Posted 15m ago</h3>
@@ -43,7 +43,7 @@ Notice it looks exactly the same. But now try reading the code we just wrote ins
 
 What's more, this is reusable now. We could have a full feed of these.
 
-```html
+```klipse-html
 <div class="social-feed">
   <div class="social-post">
     <h2 class="user-name">@sassy_pants_mcgee</h2>
@@ -88,7 +88,7 @@ Now I used a div to enclose the entire social feed, and then I reused our struct
 
 Let's construct a navbar for fun.
 
-```html
+```klipse-html
 <nav>
   <ul class="nav-list">
     <li class="nav-list-item">
