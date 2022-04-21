@@ -9,7 +9,7 @@ Before this section, you learned how to make CSS rules to affect how your webpag
 
 So how do we achieve this black magic? Do you remember [the section on classes](/complete-intro-to-web-dev-v3/lessons/html/attributes) in the HTML portion? We're going to use that now. Classes allow us to style the same **tags** (e.g. `p`, `div`, `span`, etc.) differently because we can select the class instead of the tag. This is where having useful class names helps. So now, if we have an `h1` that's the title of a blog post and an `h1` that's the branding logo at the top, we can do this:
 
-```html
+```display-html
 <h1 class="branding">My Super Cool Brand</h1>
 <!-- other htmls … these don't have to be sibiling tags -->
 <h1 class="blog-post-title">My Cool Blog Post</h1>
@@ -17,7 +17,7 @@ So how do we achieve this black magic? Do you remember [the section on classes](
 
 We can CSS to address these two differently. Like so:
 
-```klipse-html
+```html
 <style>
   .branding {
     color: red;
@@ -41,7 +41,7 @@ I wish we could stop here. This is the part where CSS can become unnecessarily c
 
 So, the cascade. What if you have two CSS classes that have conflicting properties? Which one "wins" and is applied? Let's see an example.
 
-```klipse-html
+```html
 <style>
   .title {
     color: red;
@@ -58,7 +58,7 @@ In this one, we have two rules with the same class (which is "legal" CSS.) So wh
 
 Okay, one step more complicated:
 
-```klipse-html
+```html
 <style>
   .main-brand-2 {
     border: 1px solid black;
@@ -74,7 +74,7 @@ Okay, one step more complicated:
 
 First of all, yes, one tag can have multiple classes, and that can be useful. Okay, so what is this going to look like? In the eyes of CSS, those two selectors are equal since they both have the same **specificity** (key word, you'll see it used a lot when talking about CSS.) They both specific one class which makes them equal. So in this case, since `.title` comes last in the CSS, it wins. The color will be green. What about the border? Since `.title` doesn't conflict, it'll have a black border too. So keep in mind that each of these "conflicts" is resolved on a property-by-property basis. So the end result in an `h1` that has a black border and green font.
 
-```klipse-html
+```html
 <style>
   .main-brand-3.title-3 {
     color: red;
@@ -91,7 +91,7 @@ This how you add two classes to one selector. Notice there's no space between th
 
 Okay, next steps here:
 
-```klipse-html
+```html
 <style>
   .title-4 {
     color: orange;
@@ -110,7 +110,7 @@ A useful but imperfect way to think about this is to think of specificity like a
 
 Last one and we'll move on:
 
-```klipse-html
+```html
 <style>
   h1.main-brand-5 {
     color: red;
@@ -133,7 +133,7 @@ The first selector, `h1.main-brand` is how you select both a tag and a class at 
 
 The next two I'm going to show you should nearly never use. These are wrecking balls when most problems require carpenter's hammers. I show you because a lot of tutorials online and existing code has them in there. So please, refrain from using these tools unless you have good reason (there are some problems that do require wrecking balls.)
 
-```klipse-html
+```html
 <style type="text/css">
   #site-brand {
     color: red;
@@ -156,7 +156,7 @@ You would think by how long the second class is, it'd win. Not the case. ID sele
 
 Do you want to wreck the wrecking ball? Using the previous HTML, look at this CSS:
 
-```klipse-html
+```html
 <style>
   #site-brand-2 {
     color: red;

@@ -8,7 +8,7 @@ Some times we want to change how elements look based on certain events that happ
 
 The see we used for this is this:
 
-```klipse-html
+```html
 <style>
   .hover-example {
     width: 100px;
@@ -29,7 +29,7 @@ The `:hover` part selects that element **only when that condition is true**. The
 
 The CSS for this is:
 
-```klipse-html
+```html
 <style>
   .first-child-example {
     color: crimson;
@@ -51,14 +51,10 @@ This only selects the element if it is the _first element_ inside of a tag. Othe
 
 We're not going to dwell too much on pseudoelements as they are a bit of an advance concept. [Read here][pseudoelements] for a more in-depth dive on it. But let's have a quick example.
 
-```klipse-html
-<div class="chapter">
-  This is a chapter of my book.
-</div>
+```html
+<div class="chapter">This is a chapter of my book.</div>
 
-<div class="chapter">
-  This is a second chapter of my book.
-</div>
+<div class="chapter">This is a second chapter of my book.</div>
 
 <style>
   .chapter p {

@@ -25,7 +25,7 @@ Like HTML, CSS is not a programming language. It's a list of rules that you give
 
 We'll first explore the most apparent way to use CSS: to effect visual changes on your HTML. Imagine an `h1` like this:
 
-```html
+```display-html
 <h1>This is an h1.</h1>
 ```
 
@@ -77,7 +77,7 @@ Notice the HTML we're using for this is still: `<h1>This is an h1</h1>`. Nothing
 
 You'll notice that if I have HTML like this:
 
-```html
+```display-html
 <div>
   <h1>An h1</h1>
 </div>

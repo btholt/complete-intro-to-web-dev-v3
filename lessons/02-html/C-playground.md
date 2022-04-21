@@ -4,7 +4,7 @@ I've embedded a little widget here for you to play with the HTML elements we've 
 
 On the left, you'll see the HTML that you can edit. On the right you'll see what that HTML looks like as if it was being run on a website. You can edit the left pane and on the right pane you'll instantly see it being displayed. Take some time to toy around with it and see what happens when you edit it and rearrange things. Learning comes easily during play. We'll get to making our own websites from scratch but this is a good place to start with and not get burdened down with some of the details.
 
-```klipse-html
+```html
 <!-- links -->
 <div>
   <a href="https://www.frontendmasters.com">Frontend Masters</a>

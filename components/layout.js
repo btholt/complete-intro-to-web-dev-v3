@@ -24,7 +24,10 @@ function Layout({ children }) {
             linkedin={courseInfo.social.linkedin}
           />
         </div>
-        <Script src="https://storage.googleapis.com/app.klipse.tech/plugin_prod/js/klipse_plugin.min.js" />
+        <Script
+          strategy="beforeInteractive"
+          src="https://storage.googleapis.com/app.klipse.tech/plugin_prod/js/klipse_plugin.min.js"
+        />
       </HeaderProvider>
     </CourseInfoProvider>
   );

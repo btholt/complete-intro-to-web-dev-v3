@@ -10,8 +10,8 @@ import Layout from "../components/layout";
 // TODO favicons
 
 globalThis.klipse_settings = {
-  selector_eval_js: ".language-klipse-js",
-  selector_eval_html: ".language-klipse-html",
+  selector_eval_js: ".language-js",
+  selector_eval_html: ".language-html",
   codemirror_options_in: {
     indentUnit: 2,
     lineWrapping: true,

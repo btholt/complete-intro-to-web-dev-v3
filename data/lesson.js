@@ -7,12 +7,15 @@ import hljs from "highlight.js";
 
 marked.setOptions({
   baseUrl: process.env.BASE_URL ? process.env.BASE_URL + "/" : "/",
-  highlight: function (code, lang) {
-    if (lang.startsWith("klipse")) {
+  highlight: function (code, inputLang) {
+    if (["html", "js"].indexOf(inputLang) >= 0) {
       return code;
     }
 
-    const language = hljs.getLanguage(lang) ? lang : "plaintext";
+    const lang = inputLang.replace("display-", "");
+
+    let language = hljs.getLanguage(lang) ? lang : "plaintext";
+
     return hljs.highlight(code, { language }).value;
   },
   langPrefix: "hljs language-",
