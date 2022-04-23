@@ -258,6 +258,19 @@ header .cta-btn {
   line-height: 180%;
 }
 
+.lesson ol {
+  padding-left: 2rem;
+  list-style-position: inside;
+}
+
+.lesson ol ol {
+  list-style-type: lower-alpha;
+}
+
+.lesson ol ol ol {
+  list-style-type: lower-roman;
+}
+
 .lesson-links {
   font-size: 18px;
   padding: 15px 0;
