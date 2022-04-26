@@ -5,6 +5,10 @@ import getCourseConfig from "../../../data/course";
 import Corner from "../../../components/corner";
 import { Context } from "../../../context/headerContext";
 
+import * as popmotion from "popmotion";
+
+globalThis.popmotion = popmotion;
+
 export default function LessonSlug({ post }) {
   const courseInfo = getCourseConfig();
   const [_, setHeader] = useContext(Context);
