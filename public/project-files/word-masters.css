@@ -3,7 +3,9 @@
 }
 
 body {
+  /* a nice font that uses a user's built in font */
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
   color: #333;
   margin: 0;
   padding: 0;
@@ -13,7 +15,7 @@ body {
   border-bottom: 2px solid #333;
   padding: 15px;
   text-align: center;
-  margin-bottom: 50px;
+  margin-bottom: 0;
 }
 
 .brand {
@@ -57,52 +59,41 @@ body {
   color: white; 
 }
 
-.loading {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
+.invalid {
+  animation: flash 1s;
+}
 
-  background: rgba(10, 10, 10, .8);
-  display: flex;
-  align-items: center;
-  justify-content: center;
+/* flashes red border and then fades back to gray */
+@keyframes flash {
+  5% {
+    border-color: crimson;
+  }
+
+  100% {
+    border-color: #ccc;
+  }
 }
 
 .spiral {
-  font-size: 75px;
+  font-size: 40px;
   animation: spin 1.5s linear infinite;
 }
 
+/* rotates clockwise indefinitely */
 @keyframes spin {
   to {
     transform: rotate(360deg);
   }
 }
 
+/* visibility hidden means the item is still there and taking up space
+   but just not shown. display: none doesn't take up space */
 .hidden {
-  display: none;
+  visibility: hidden;
 }
 
-.info {
-  background-color: white;
-  padding: 30px;
-  border-radius: 5px;
-  text-align: center;
-  font-size: 30px;
-}
-
-.info-button {
-  border: 3px solid gray;
-  padding: 5px 20px;
-  background-color: white;
-  cursor: pointer;
-  font-size: 16px;
-  margin-top: 20px;
-}
-
-.info-button:hover, .info-button:active {
-  background-color: #bbb;
-  color: white;  
+.info-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
