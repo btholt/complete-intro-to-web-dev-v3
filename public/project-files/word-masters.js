@@ -12,9 +12,7 @@ async function init() {
   let isLoading = true;
 
   // nab the word of the day
-  const res = await fetch(
-    "http://127.0.0.1:3000/get-word-of-the-day?random=true"
-  );
+  const res = await fetch("https://words.dev-apis.com/word-of-the-day");
   const { word: wordRes } = await res.json();
   const word = wordRes.toUpperCase();
   const wordParts = word.split("");
@@ -44,16 +42,16 @@ async function init() {
     // skip this step if you're not checking for valid words
     isLoading = true;
     setLoading(isLoading);
-    const res = await fetch("http://localhost:3000/validate-word", {
+    const res = await fetch("https://words.dev-apis.com/validate-word", {
       method: "POST",
       body: JSON.stringify({ word: currentGuess }),
     });
-    const { isValidWord } = await res.json();
+    const { validWord } = await res.json();
     isLoading = false;
     setLoading(isLoading);
 
     // not valid, mark the word as invalid and return
-    if (!isValidWord) {
+    if (!validWord) {
       markInvalidWord();
       return;
     }
@@ -95,6 +93,7 @@ async function init() {
     if (allRight) {
       // win
       alert("you win");
+      document.querySelector(".brand").classList.add("winner");
       done = true;
     } else if (currentRow === ROUNDS) {
       // lose
@@ -150,7 +149,7 @@ async function init() {
 // this uses regex (the /[a-zA-Z]/ part) but don't worry about it
 // you can learn that later and don't need it too frequently
 function isLetter(letter) {
-  return letter.length === 1 && letter.match(/[a-zA-Z]/) !== null;
+  return /^[a-zA-Z]$/.test(letter);
 }
 
 // show the loading spinner when needed
