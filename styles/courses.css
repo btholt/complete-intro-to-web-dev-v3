@@ -400,14 +400,13 @@ ol.sections-name > li {
   border-top-right-radius: 5px;
 }
 ol.sections-name .lesson-preface {
-  /* content: counter(my-awesome-counter); */
   color: var(--icons);
   display: flex;
   position: relative;
   align-items: center;
   justify-content: center;
   background: var(--secondary);
-  font-size: 30px;
+  font-size: 100px;
   padding: 25px;
   width: 30%;
 }
@@ -477,6 +476,10 @@ ol.sections-name .lesson-details {
 @media (max-width: 600px) {
   .lesson-container {
     padding: 2px;
+  }
+
+  ol.sections-name .lesson-preface {
+    font-size: 60px;
   }
 }
 
