@@ -229,6 +229,15 @@ header .cta-btn {
   border-radius: 8px;
 }
 
+.lesson a {
+  text-decoration: underline;
+}
+
+.lesson a:hover, 
+.lesson a:active {
+  text-decoration: none;
+}
+
 .lesson > h1 {
   color: var(--text-header);
   font-size: 24px;
@@ -506,6 +515,15 @@ ol.sections-name .lesson-details {
   display: flex;
   justify-content: center;
   align-items: center;
+  text-decoration: none;
+}
+
+.lesson-content > ul > li {
+  margin-left: 15px;
+}
+
+.lesson li { 
+  margin-left: 40px;
 }
 
 .lesson-links a.prev {

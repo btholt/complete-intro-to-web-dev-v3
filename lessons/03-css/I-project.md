@@ -20,7 +20,7 @@ Some notes:
 
 This time I'm going to make you write both the HTML and the CSS. Consider this a capstone project for the first two sections!
 
-Design credits for Coffee Masters to [Alex Danielson][alex].
+Design credits for Coffee Masters to [Alex Danielson][alex] (he also did this website!)
 
 [border-radius]: https://css-tricks.com/almanac/properties/b/border-radius/
 [box-shadow]: https://css-tricks.com/almanac/properties/b/box-shadow/

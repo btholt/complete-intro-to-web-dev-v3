@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #efefef;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.page {
+  display: grid;
+  row-gap: 30px;
+  column-gap: 30px;
+  width: 100%;
+  padding: 30px;
+  margin: 0 auto;
+  grid-template-areas:
+    "order payment"
+    "total total";
+}
+
+.main-nav {
+  background-color: #43281c;
+  color: #fbf2c0;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: normal;
+}
+
+.logo {
+  height: 25px;
+  position: relative;
+  top: 3px;
+}
+
+.box {
+  background-color: #eee1d5;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgb(0 0 0 / 0.2);
+  padding: 15px;
+}
+
+.box-title {
+  color: #885a2d;
+  font-weight: normal;
+  font-size: 16px;
+}
+
+.order {
+  grid-area: order;
+}
+
+.payment {
+  grid-area: payment;
+}
+
+.total {
+  grid-area: total;
+}

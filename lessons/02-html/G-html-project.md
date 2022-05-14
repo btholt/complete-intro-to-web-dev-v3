@@ -26,4 +26,7 @@ Quick note on how to do an image: put the image in the same directory as the ind
 
 This will mostly be black and white and that's okay. You can come back and restyle this later with CSS.
 
+Here is my example: [Brian's Blog][html] (you'll have to right click and say "View Source")
+
 [lorem]: https://loremipsum.io
+[html]: https://btholt.github.io/complete-intro-to-web-dev-v3/project-files/blog/index.html

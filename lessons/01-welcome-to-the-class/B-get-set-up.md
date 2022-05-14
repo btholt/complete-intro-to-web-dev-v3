@@ -6,7 +6,7 @@ A good craftperson needs reliable tools. Let's get you set up and going. I have 
 
 ## The Code Editor
 
-__Recommended__: [Visual Studio Code][code]
+**Recommended**: [Visual Studio Code][code]
 
 I admit some bias here as I used to be a program manager on the VS Code team. It's a lovely tool that's free, has a great ecosystem of plugins, and works well across many platforms. I strongly suggest getting started here with VS Code.
 
@@ -19,7 +19,7 @@ Alternatives:
 
 ## The Browser
 
-__Recommended__: [Google Chrome][chrome]
+**Recommended**: [Google Chrome][chrome]
 
 The standard at the moment for web development. It has great dev tools and is the number one most used browser in the world. Lots of great developer-focused extensions
 
@@ -29,7 +29,7 @@ Alternatives:
 
 ## In-Browser Code Editor
 
-In this course we will use [CodePen][codepen]. It's an in-browser code editing experience and it makes it easy for you to learn. I suggest you head [here][sign-up] and sign up for a free account so you fork the assignments to your own CodePen and you can refer to them later.
+In this course we will use [CodePen][codepen] a few times. It's an in-browser code editing experience and it makes it easy for you to learn. I suggest you head [here][sign-up] and sign up for a free account so you fork the assignments to your own CodePen and you can refer to them later.
 
 ## The Resources
 

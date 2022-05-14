@@ -115,9 +115,9 @@ On the left, you'll see the HTML that you can edit. On the right you'll see what
 
 <!-- for fun -->
 <div>
-  <marquee
-    >This is a really old feature that only works in some browsers. You should
-    never use it for a real website.</marquee
-  >
+  <marquee>
+    This is a really old feature that only works in some browsers. You should
+    never use it for a real website.
+  </marquee>
 </div>
 ```
