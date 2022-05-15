@@ -34,11 +34,9 @@ const person2 = {
 
 function suggestMusic(person) {
   if (person.ageRange === "25-35") {
-    console.log("We think you will like Daft Punk you crazy millenial.");
+    console.log("We think you will like Daft Punk.");
   } else if (person.ageRange === "65-75") {
-    console.log(
-      "You are obviously going to like Johnny Cash. He walks the line."
-    );
+    console.log("You are obviously going to like Johnny Cash.");
   } else {
     console.log(
       "Uh, maybe try David Bowie? Everyone likes David Bowie, right?"

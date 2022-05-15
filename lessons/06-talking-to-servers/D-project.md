@@ -89,6 +89,8 @@ document
   });
 ```
 
+> This will even prevent backspace and enter!
+
 ## Get to it!
 
 You will need to do all the HTML, CSS, and JavaScript yourself. There are infinite good and correct ways to do this so don't feel like you need to match my solution.

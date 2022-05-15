@@ -12,6 +12,7 @@ We're going to make the checkout page for a coffee app. It looks like this:
 
 Some notes:
 
+- You get to do the HTML and the CSS here.
 - [The logo for Coffee Masters is here.](/complete-intro-to-web-dev-v3/images/coffee_masters_logo.png)
 - We didn't talk about how to make rounded corners. It's with [border-radius][border-radius].
 - There are many ways to do this. Flex and grid would work well, just don't go overboard with grid, it'd be hard to 100% handle this layout in just grid.

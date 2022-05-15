@@ -258,8 +258,9 @@ header .cta-btn {
   max-width: 300px;
 }
 
-.lesson p {
+.lesson p, .lesson ul, .lesson ol {
   clear: both;
+  margin-bottom: 20px;
 }
 
 .lesson p,
