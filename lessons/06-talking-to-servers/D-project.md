@@ -2,7 +2,7 @@
 description: ""
 ---
 
-<iframe style="margin: 10px auto; display: block;" class="doggos" height="595" title="Doggos" src="/complete-intro-to-web-dev-v3/project-files/word-masters.html" frameborder="no" allowtransparency="true"></iframe>
+<iframe style="margin: 10px auto; display: block;" class="doggos" height="595" title="Word Masters" src="/complete-intro-to-web-dev-v3/project-files/word-masters.html" frameborder="no" allowtransparency="true"></iframe>
 
 You and I are going to recreate the well known word game Wordle. If you're not familiar with Wordle (which we'll call Word Masters), here's how you play
 
