@@ -27,8 +27,10 @@ You have two APIs to work with today:
 
 - This will give you the word of the day. It changes every night at midnight
 - The response will look like this: `{"word":"humph","puzzleNumber":3}` where the word is the current word of the day and the puzzleNumber is which puzzle of the day it is
-- If you add `random=1` to the end of your URL (words.dev-apis.com/wordof-the-day/get-word-of-the-day?random=1) then it will give you a random word of the day, not just the same daily one.
-- If you add `puzzle=<number>` to the end of your URL (words.dev-apis.com/wordof-the-day/get-word-of-the-day?puzzle=1337) then it will give you the same word every time.
+- If you add `random=1` to the end of your URL (`words.dev-apis.com/wordof-the-day/get-word-of-the-day?random=1`) then it will give you a random word of the day, not just the same daily one.
+- If you add `puzzle=<number>` to the end of your URL (`words.dev-apis.com/wordof-the-day/get-word-of-the-day?puzzle=1337`) then it will give you the same word every time.
+
+> Please note the words are chosen at total random. No meaning is meant by the words; they're just random words for a word puzzle.
 
 **POST https://words.dev-apis.com/validate-word**
 
