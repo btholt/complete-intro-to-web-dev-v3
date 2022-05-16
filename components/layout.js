@@ -13,7 +13,7 @@ function Layout({ children }) {
   return (
     <CourseInfoProvider value={courseInfo}>
       <HeaderProvider value={headerHook}>
-        <div className="remix-app">
+        <div className="course-app">
           <Header title={courseInfo.title} />
           <div className="content-container">
             <div className="main">{children}</div>
@@ -28,6 +28,18 @@ function Layout({ children }) {
           strategy="beforeInteractive"
           src="https://storage.googleapis.com/app.klipse.tech/plugin_prod/js/klipse_plugin.min.js"
         />
+        <script
+          async
+          defer
+          src="https://scripts.simpleanalyticscdn.com/latest.js"
+        ></script>
+        <noscript>
+          <img
+            src="https://queue.simpleanalyticscdn.com/noscript.gif"
+            alt=""
+            referrerPolicy="no-referrer-when-downgrade"
+          />
+        </noscript>
       </HeaderProvider>
     </CourseInfoProvider>
   );
