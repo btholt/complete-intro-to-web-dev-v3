@@ -3,6 +3,7 @@ import Head from "next/head";
 import { getLesson, getLessons } from "../../../data/lesson";
 import getCourseConfig from "../../../data/course";
 import Corner from "../../../components/corner";
+import SupportTweet from "../../../components/support-tweet";
 import { Context } from "../../../context/headerContext";
 
 import * as popmotion from "popmotion";
@@ -64,6 +65,7 @@ export default function LessonSlug({ post }) {
         </div>
         <Corner />
       </div>
+      <SupportTweet />
     </>
   );
 }

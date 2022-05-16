@@ -566,3 +566,14 @@ ol.sections-name .lesson-details {
 .klipse-result li {
   list-style-position: inside;
 }
+
+.support-tweet {
+  text-align: center;
+}
+
+.support-tweet > div {
+  display: inline-block;
+  min-width: 300px;
+  max-width: 550px;
+  width: 100%;
+}

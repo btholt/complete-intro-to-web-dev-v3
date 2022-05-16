@@ -19,6 +19,7 @@
     "popmotion": "^11.0.3",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
+    "react-tweet-embed": "^2.0.0",
     "title-case": "^3.0.3"
   }
 }
