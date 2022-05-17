@@ -13,8 +13,6 @@ const SupportTweet = () => {
     return <h3 className="tweet-head">loading …</h3>;
   }
 
-  console.log("tweet", tweet);
-
   return (
     <div className="support-tweet">
       <h3 className="tweet-head">Some words of encouragement!</h3>

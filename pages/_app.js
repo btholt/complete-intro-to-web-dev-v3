@@ -8,8 +8,6 @@ import "../styles/courses.css";
 import "klipse/dist/codemirror.css";
 import Layout from "../components/layout";
 
-// TODO favicons
-
 globalThis.klipse_settings = {
   selector_eval_js: ".language-javascript",
   selector_eval_html: ".language-html",

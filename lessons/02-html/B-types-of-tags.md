@@ -22,3 +22,43 @@ So let's explore some of the essential tag types.
 We, as coders, forget what things do. We write things that are really complicated or we know will be difficult to figure out later. Something to keep in mind is that you are mostly writing code for yourself to read later, not for the computer. The hardest part of writing code is having to maintain it later, not writing it the first time. Writing code the first time is the easier part. Going back and trying to remember what the hell you were thinking is the hard part.
 
 This is where comments can be useful. You can leave little notes in your code that the computer won't read, it'll just ignore them. In HTML, the way you write a comment is `<!-- your comments go here -->`. Leave whatever notes you need in between the `<!--` and the `-->` so that later you can come back to your code and remember what you were doing. Be careful of going overboard because comments like `<h1>Title of the Article</h1><!-- the title -->` aren't useful because it's pretty obvious that's the title. It's best to have code that describes itself and don't need comments; however when that falls apart comments can help.
+
+## A Note on Hard Returns
+
+Here's something that people new to HTML find hard: how do I have a hard return in the middle of my text?
+
+```display-html
+<p>
+  This is some text.
+
+  This is some more text.
+</p>
+```
+
+^^ That doesn't work. This will render like this:
+
+<p>This is some text. This is some more text.</p>
+
+So how do you get that split in text? There's the "correct"/"new" way and the "incorrect"/"old" way.
+
+Correct:
+
+```html
+<p>This is some text.</p>
+
+<p>This is some more text.</p>
+```
+
+This is the way you should do it. The `p` tag exists so you can have paragraphs. If you want a linebreak, then you should just use `p` tags to accomplish that. When at all possible (which should be just about always) you should do it this way.
+
+Incorrect:
+
+```html
+<p>
+  This is some text.
+  <br />
+  This is some more text.
+</p>
+```
+
+The `br` tag is a linebreak tag and used it be very common. However this is no longer the correct way to do it (but you'll still see it around.) It will occasionally be useful and you'll see it in documentation sometimes so I wanted you to know that it exists, it works, and it's not the preferred way of doing linebreaks.
