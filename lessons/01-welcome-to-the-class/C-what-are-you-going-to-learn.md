@@ -6,7 +6,7 @@ Let's talk about what you're going to learn throughout this course: how to write
 
 ## What is HTML?
 
-HTML stands for hypertext mockup language. You can think of it as the content on a webpage. As you're reading this content right now, the images and text are written in HTML. It's also the _structure_ of the content. You can group bits of HTML together. We'll get into this in a bit, but it's good to associate HTML with _structure_ and _content_.
+HTML stands for hypertext markup language. You can think of it as the content on a webpage. As you're reading this content right now, the images and text are written in HTML. It's also the _structure_ of the content. You can group bits of HTML together. We'll get into this in a bit, but it's good to associate HTML with _structure_ and _content_.
 
 If we were building a car together, you could think of the HTML as the materials we used to build the car: the frame, the doors, the steering wheel, the tires, etc. By themselves, the materials are inert: they don't _do_ anything by themselves or look particularly. They need to arranged into a coherent car (via CSS) and it needs an engine with all the wiring (via JavaScript) to actually do anything.
 
