@@ -32,10 +32,11 @@ function Layout({ children }) {
           async
           defer
           src="https://scripts.simpleanalyticscdn.com/latest.js"
+          hostname="btholt.github.io/complete-intro-to-web-dev-v3"
         ></script>
         <noscript>
           <img
-            src="https://queue.simpleanalyticscdn.com/noscript.gif"
+            src="https://queue.simpleanalyticscdn.com/noscript.gif?hostname=btholt.github.io/complete-intro-to-web-dev-v3"
             alt=""
             referrerPolicy="no-referrer-when-downgrade"
           />
