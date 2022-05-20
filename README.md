@@ -3,10 +3,8 @@
 [![Frontend Masters](https://static.frontendmasters.com/assets/brand/logos/full.png)][fem]
 
 <p align="center">
-  Learn to be a web developer from nothing from industry veteran Brian Holt
+  Build your first web app with little code experience with industry veteran Brian Holt.
 </p>
-
-WIP. Watch live [on Frontend Masters][fem]
 
 [Course code icon created by Freepik - Flaticon](https://www.flaticon.com/free-icons/code)
 
