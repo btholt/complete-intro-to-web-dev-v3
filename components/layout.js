@@ -32,7 +32,7 @@ function Layout({ children }) {
           async
           defer
           src="https://scripts.simpleanalyticscdn.com/latest.js"
-          hostname="btholt.github.io/complete-intro-to-web-dev-v3"
+          data-hostname="btholt.github.io/complete-intro-to-web-dev-v3"
         ></script>
         <noscript>
           <img
