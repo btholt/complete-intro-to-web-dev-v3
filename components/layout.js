@@ -31,12 +31,12 @@ function Layout({ children }) {
         <script
           async
           defer
-          src="https://scripts.simpleanalyticscdn.com/latest.js"
+          src="https://a.holt.courses/latest.js"
           data-hostname="web-dev-v3.holt.courses"
         ></script>
         <noscript>
           <img
-            src="https://queue.simpleanalyticscdn.com/noscript.gif?hostname=web-dev-v3.holt.courses"
+            src="https://a.holt.courses/noscript.gif?hostname=web-dev-v3.holt.courses"
             alt=""
             referrerPolicy="no-referrer-when-downgrade"
           />
