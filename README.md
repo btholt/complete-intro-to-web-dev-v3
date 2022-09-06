@@ -1,4 +1,4 @@
-<p align="center"><a href="https://frontendmasters.com/workshops/web-development-v3/"><img alt="code logo" title="code" src="./public/images/course-icon.png" /></a></p>
+<p align="center"><a href="https://frontendmasters.com/courses/web-development-v3/"><img alt="code logo" title="code" src="./public/images/course-icon.png" /></a></p>
 
 [![Frontend Masters](https://static.frontendmasters.com/assets/brand/logos/full.png)][fem]
 
