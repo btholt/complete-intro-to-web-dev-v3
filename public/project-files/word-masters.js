@@ -24,7 +24,7 @@ async function init() {
     if (currentGuess.length < ANSWER_LENGTH) {
       currentGuess += letter;
     } else {
-      current = currentGuess.substring(0, currentGuess.length - 1) + letter;
+      currentGuess = currentGuess.substring(0, currentGuess.length - 1) + letter;
     }
 
     letters[currentRow * ANSWER_LENGTH + currentGuess.length - 1].innerText =
