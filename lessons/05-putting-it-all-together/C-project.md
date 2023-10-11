@@ -13,7 +13,7 @@ Project time!
 
 We are going to rebuild the calculator on iOS! If you've never seen that before, here it is:
 
-<iframe class="calc" width="400" height="595" title="Calculator" src="/complete-intro-to-web-dev-v3/project-files/calculator.html" frameborder="no" allowtransparency="true"></iframe>
+<iframe class="calc" width="400" height="595" title="Calculator" src="/public/project-files/calculator.html" frameborder="no" allowtransparency="true"></iframe>
 
 My implementation of it is embedded here on the page so feel free to play with it.
 
@@ -71,6 +71,6 @@ You'll also see that we used the `typeof` operator. `typeof` tells whatever the 
 
 ## Answer
 
-- [The HTML](/complete-intro-to-web-dev-v3/project-files/calculator.html) (you can view source on it)
-- [The JavaScript](/complete-intro-to-web-dev-v3/project-files/calculator.js)
-- [The CSS](/complete-intro-to-web-dev-v3/project-files/calculator.css)
+- [The HTML](/public/project-files/calculator.html) (you can view source on it)
+- [The JavaScript](/public/project-files/calculator.js)
+- [The CSS](/public/project-files/calculator.css)
