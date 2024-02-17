@@ -91,7 +91,7 @@ div {
 }
 ```
 
-The `h1` will be colored blue. This is because it has a parent (or ancestor) tag that is a `div` which means that CSS will still affect it. This even works will large degrees of separation. If I have `<body><div><div><div><div><div><h1>my h1</h1></div></div></div></div></div></body>` and my CSS selector is `body { color: orange }` that will affect the `h1` in the middle.
+The `h1` will be colored blue. This is because it has a parent (or ancestor) tag that is a `div` which means that CSS will still affect it. This even works with large degrees of separation. If I have `<body><div><div><div><div><div><h1>my h1</h1></div></div></div></div></div></body>` and my CSS selector is `body { color: orange }` that will affect the `h1` in the middle.
 
 ## Experiment
 
