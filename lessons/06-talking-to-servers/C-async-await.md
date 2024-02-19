@@ -3,7 +3,7 @@ description: ""
 title: "async/await"
 ---
 
-Promises make code hard to read. Before them we did everything will callbacks (similar to how we're doing event listeners, you just give a function to be run later) and it was even worse. We used to deal with what we called the "pyramid of doom" or just simply "callback hell" where we had to deal with functions inside of functions. As you saw with promise chaining, at least it's linear and not terrible to follow.
+Promises make code hard to read. Before them we did everything with callbacks (similar to how we're doing event listeners, you just give a function to be run later) and it was even worse. We used to deal with what we called the "pyramid of doom" or just simply "callback hell" where we had to deal with functions inside of functions. As you saw with promise chaining, at least it's linear and not terrible to follow.
 
 What if it could be better? It can! With recent versions of JavaScript we got the ability to do what's called async/await. It allows us to make code even easier to read.
 
