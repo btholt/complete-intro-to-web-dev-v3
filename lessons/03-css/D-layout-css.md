@@ -11,6 +11,12 @@ CSS can also be used to layout the page differently. Without this, you couldn't 
   }
   .klipse-result {
     width: 100%;
+    white-space: normal;
+  }
+  .klipse-result::after {
+    content: "";
+    display: block;
+    clear: both;
   }
   .CodeMirror {
     width: 100%;
