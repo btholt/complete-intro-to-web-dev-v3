@@ -2,7 +2,7 @@
 description: ""
 ---
 
-Let's do a quick intro to grid, the latest-and-greatest way to do layouts with CSS. Grid shares a bit of similarities with flex but it's more oriented to making grids layouts as opposed to flex which is more flexible in terms of what you can get it to do. In short, grid is useful is more laying out a page (which are frequently grid-like) whereas flex is more flexible (if a bit more compliacted) and is more useful when you have more unique layouts to achieve.
+Let's do a quick intro to grid, the latest-and-greatest way to do layouts with CSS. Grid shares a bit of similarities with flex but it's more oriented to making grids layouts as opposed to flex which is more flexible in terms of what you can get it to do. In short, grid is useful in more laying out a page (which are frequently grid-like) whereas flex is more flexible (if a bit more compliacted) and is more useful when you have more unique layouts to achieve.
 
 ```html
 <style>
