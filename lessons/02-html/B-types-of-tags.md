@@ -196,4 +196,4 @@ Incorrect:
 </p>
 ```
 
-The `br` tag is a linebreak tag and used it be very common. However this is no longer the correct way to do it (but you'll still see it around.) It will occasionally be useful and you'll see it in documentation sometimes so I wanted you to know that it exists, it works, and it's not the preferred way of doing linebreaks.
+The `br` tag is a linebreak tag and it used to be very common. However this is no longer the correct way to do it (but you'll still see it around.) It will occasionally be useful and you'll see it in documentation sometimes so I wanted you to know that it exists, it works, and it's not the preferred way of doing linebreaks.
