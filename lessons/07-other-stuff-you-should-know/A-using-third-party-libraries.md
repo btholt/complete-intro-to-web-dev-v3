@@ -20,7 +20,7 @@ Open a new project, put this in the index.html:
     <h1>Animation</h1>
     <div class="ball"></div>
 
-    <script src="https://unpkg.com/popmotion@11.0.3/dist/popmotion.global.min.js"></script>
+    <script src="https://unpkg.com/popmotion@11.0.3/dist/popmotion.min.js"></script>
     <script src="./animation.js"></script>
   </body>
 </html>
@@ -95,7 +95,7 @@ npm install --global parcel
 
 It's going to install a bunch of stuff for you so that you can then use the tool [parcel][parcel]. Parcel is a tool that makes it super simple to bundle all of your code together into one neat little package. You can also install whatever you want from npm and include that too! From there:
 
-1. Okay, go to your index.html and delete the `<script src="https://unpkg.com/popmotion@11.0.3/dist/popmotion.global.min.js"></script>` line.
+1. Okay, go to your index.html and delete the `<script src="https://unpkg.com/popmotion@11.0.3/dist/popmotion.min.js"></script>` line.
 1. Go to your animation.js file and add to the top of the file as the very first line: `const popmotion = require("popmotion");`. This will tell the bundler to bring in Popmotion for you.
 1. Navigate in your terminal to the root of your animation project. Run `npm init -y`. This will generate a `package.json` file for you which is how Node projects handle their configurations. We need to be able to keep track of dependencies and this will do that.
 1. Run `npm install popmotion@11.0.3`. This will install Popmotion locally on your computer instead of loading it from somewhere else. Now your users will download just one file from you instead one file from you and one file from another server. Notice in your animation project there's now a `node_modules` directory: this is where all your installed dependencies (which is what you call the libraries you install from npm) go.
