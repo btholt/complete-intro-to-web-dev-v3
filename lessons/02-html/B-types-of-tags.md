@@ -46,7 +46,7 @@ So let's explore some of the essential tag types.
 <p>This is <span style="text-decoration: underline">important</span> text</p>
 ```
 
-`ol`, `ul`, and `li` – Both `ol` and `ul` represent lists. In fact, this list of various tags is a `ul`! A `ul` is an unordered list: it's a list of things that could be shuffled and still mean the same thing. If I asked you to list all the teams in a sports league, or all the characters on a TV show, those could be presented in any order. An `ol` is an organized list: what comes first matters. If I ask you to list out the ten most populous cities in the world, there is an order to that and changing the order makes the list incorrect. In either list, each item in the list is an `li`. Example: `<ul><li>Bob</li><li>Eve</li><li>Alice</li></ul>`
+`ol`, `ul`, and `li` – Both `ol` and `ul` represent lists. In fact, this list of various tags is a `ul`! A `ul` is an unordered list: it's a list of things that could be shuffled and still mean the same thing. If I asked you to list all the teams in a sports league, or all the characters on a TV show, those could be presented in any order. An `ol` is an ordered list: what comes first matters. If I ask you to list out the ten most populous cities in the world, there is an order to that and changing the order makes the list incorrect. In either list, each item in the list is an `li`. Example: `<ul><li>Bob</li><li>Eve</li><li>Alice</li></ul>`
 
 ```html
 <ol>
