@@ -239,7 +239,7 @@ For this one I did have to remove the heights from the boxes or it overrules the
 ```html
 <style>
   .ai-grow {
-    // nothing necessary here
+    /* nothing necessary here */
   }
 
   .ai-grow .box-1 {
