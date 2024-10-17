@@ -62,7 +62,7 @@ description: ""
   }
 </style>
 
-`display: flex;` is a display mode for CSS. It's to note that when you stick `display: float`, it allows you to to change the layout **inside** the tag. It allows you to change the layout of its children. Externally, it acts just like `block`. Likewise there is a `inline-flex` which acts just like `display: inline-block` externally.
+`display: flex;` is a display mode for CSS. It's to note that when you stick `display: float`, it allows you to change the layout **inside** the tag. It allows you to change the layout of its children. Externally, it acts just like `block`. Likewise there is a `inline-flex` which acts just like `display: inline-block` externally.
 
 Flex allows for a lot of interesting patterns but we're going to scratch the surface today. Take [Jen Kramer's course][jen] or read the [CSS Tricks article][flex] to learn more. We're going to explore same case today. Flex lets you tell CSS how to lay out the items inside a tag. We can tell the them to be left aligned, bottom aligned, center aligned, whatever you want. You can even throw them into columns. I think this is best taught by example so let's just throw a bunch on the page. All of them will have the following CSS:
 

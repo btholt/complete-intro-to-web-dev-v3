@@ -24,7 +24,7 @@ console.log(greet("Brian", "Holt", "Lord", "Salutations"));
 console.log(greet("Jack", "Sparrow", "Captain", "A-hoy"));
 ```
 
-Now we rather than have to repeate ourselves over-and-over again with that long string, we can just call greet with the appropriate parameters. Here we use four parameters. The order is important that we send in the parameters because this will be the order function receives these parameters. You can have as many or as few parameters as you like.
+Now we rather than have to repeat ourselves over-and-over again with that long string, we can just call greet with the appropriate parameters. Here we use four parameters. The order is important that we send in the parameters because this will be the order function receives these parameters. You can have as many or as few parameters as you like.
 
 The way to **call** a function is you add parens to the end of it, like this: `someFunctionName()`. If you see parens after a variable name, you instantly know that that's a function. Inside of the parens go the parameters. These variables will be passed to the function that is being called in the order that you put them there. These input variables are called **parameters**. Example:
 
