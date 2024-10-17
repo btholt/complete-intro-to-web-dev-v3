@@ -36,14 +36,13 @@ Animation implies some sort of change over time. You're going from 0 to 1 in som
     }
   }
   .dancer {
-    position: relative;
     display: inline-block;
     font-size: 30px;
     position: absolute;
     right: 0;
 
     /*
-    this is the log way of doing:
+    this is the long way of doing:
     animation: move 1s infinite alternate;
     */
     animation-name: move;
