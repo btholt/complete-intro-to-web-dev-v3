@@ -5,7 +5,7 @@ title: "AJAX"
 
 What is an API? An application programming interface is a URL that you can make requests to get information back from. It's like website but only for machines. It's a method that one computer can request information from another.
 
-> Note that API is also used to describe how something is used. If I wrote a dog object in JavaScript and gave it two methods: `eat()` and `bark()`, you could those two methods its "API". A similar but slightly different meaning for the word. I just point that out because it can be confusing. For the rest of this course, we're talking about endpoints that we can call to get data from.
+> Note that API is also used to describe how something is used. If I wrote a dog object in JavaScript and gave it two methods: `eat()` and `bark()`, you could call those two methods its "API". A similar but slightly different meaning for the word. I just point that out because it can be confusing. For the rest of this course, we're talking about endpoints that we can call to get data from.
 
 Now that we speak the language of APIs, let's dive into making some server requests. Let's walk through the hypothetical process.
 

@@ -51,7 +51,7 @@ You have two APIs to work with today:
 
 ## isLetter
 
-Use this function to test is a string is a single alphabetical string is a letter
+Use this function to test if a string is a single alphabetical letter
 
 ```javascript
 function isLetter(letter) {

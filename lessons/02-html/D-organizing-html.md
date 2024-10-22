@@ -84,7 +84,7 @@ What's more, this is reusable now. We could have a full feed of these.
 </div>
 ```
 
-Now I used a div to enclose the entire social feed, and then I reused our structure from above to remake a bunch of the same post. Pretty neat, huh? We build one component and then reuse it over and over again. I imagine then we'd put the `social-feed` div inside another `news` component and then that inside of our `app` page. Our `app` div might a navbar, the news div, a footer, a sidebar, and other things. But we'd just do nested things like we did with our `social-feed`.
+Now I used a div to enclose the entire social feed, and then I reused our structure from above to remake a bunch of the same post. Pretty neat, huh? We build one component and then reuse it over and over again. I imagine then we'd put the `social-feed` div inside another `news` component and then that inside of our `app` page. Our `app` div might have a navbar, the news div, a footer, a sidebar, and other things. But we'd just do nested things like we did with our `social-feed`.
 
 Let's construct a navbar for fun.
 
