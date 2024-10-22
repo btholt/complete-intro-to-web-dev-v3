@@ -21,7 +21,7 @@ So let's explore some of the essential tag types.
   sapiente in optio quia inventore quis maxime ullam tenetur?
 </p>
 <p>
-  Maxime quibusdam, dolorum quaerat ducimus inventore sunt pariatur et ea dolore
+  Maxime quibusdam, dolorum quaerat ducimus inventore sunt pariatur et dolore
   ipsam. Distinctio eum nobis officiis quam quasi exercitationem eaque?
 </p>
 ```

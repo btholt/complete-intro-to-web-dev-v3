@@ -2,7 +2,7 @@
 description: ""
 ---
 
-Attributes allow you to modify behavior of an HTML attribute. You've already seen a few of them but we'll go into a few more examples of them.
+Attributes allow you to modify behavior of an HTML tag. You've already seen a few of them but we'll go into a few more examples of them.
 
 A really good example we have seen already is the `href` attribute of the `<a href="www.frontendmasters.com"></a>` tag. By modifying the href we're modifying what the tag does. It's contextual as well: `href` only works on `a` tags. You can't add a `href` to a `div` and expect to suddenly work as a link.
 
