@@ -222,7 +222,7 @@ Vertically centering something previous to flex was a nightmare. Seriously, Goog
 
   /* remove the height from the three boxes */
   .no-height {
-    height: inherit;
+    height: unset;
   }
 </style>
 <div class="flex-container ai-stretch">
