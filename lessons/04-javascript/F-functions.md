@@ -63,4 +63,4 @@ meow();
 chirp();
 ```
 
-All of these are functions and work as such. There are very subtle differences in how they work but for now it's enough to know "those are functions". Most of the the time they work exactly the same (as you see here.)
+All of these are functions and work as such. There are very subtle differences in how they work but for now it's enough to know "those are functions". Most of the time they work exactly the same (as you see here.)
