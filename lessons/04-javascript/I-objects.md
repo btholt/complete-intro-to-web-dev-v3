@@ -18,7 +18,7 @@ console.log(person.name);
 console.log(person["name"]); // same as the line above; prefer using the other one
 ```
 
-This is called an object. They're extremely useful in JavaScript; they're how you'll group together like-information so that they can be used together. They contain a bunch of **keys** and **values**. The keys are on the left side of the `:` and represent how you get that piece data of out of the object. `name` is one such key, and the way I get the name of the
+This is called an object. They're extremely useful in JavaScript; they're how you'll group together like-information so that they can be used together. They contain a bunch of **keys** and **values**. The keys are on the left side of the `:` and represent how you get that piece of data out of the object. `name` is one such key, and the way I get the name of the
 
 Used in conjunction with functions they're very powerful. Take this example:
 
