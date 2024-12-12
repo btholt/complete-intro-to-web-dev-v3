@@ -78,4 +78,4 @@ Every element has a `::before` and an `::after`. You can use these _pseudoelemen
 Again, not the most common thing to do, just wanted you to be aware of it. You will in old code and documentation see `:before` and `:after` but these are old and now are `::before` and `::after` so that pseudoclasses (like `:hover`) and pseudoelements (like `::after`) can be disambiguated by syntax.
 
 [pseudoclasses]: https://css-tricks.com/pseudo-class-selectors/
-[pseudoelements]: https://css-tricks.com/almanac/selectors/a/after-and-before/
+[pseudoelements]: https://css-tricks.com/almanac/pseudo-selectors/b/after-and-before/
