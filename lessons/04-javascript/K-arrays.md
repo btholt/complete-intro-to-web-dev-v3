@@ -32,7 +32,7 @@ console.log(primeNumbers.length);
 console.log(primeNumbers.join(" | "));
 ```
 
-`primeNumbers.length` gives you back an number that is how long the array is. In this case there are eight elements in the array so it gives us back `8`. `primeNumbers.join(" | "))` takes your whole array and makes it into one string. THe `" | "` paramenter I'm passing is what I want put between each element, so you end up with the string `"1 | 2 | 3 | 5 | 7 | 11 | 13 | 17"`.
+`primeNumbers.length` gives you back an number that is how long the array is. In this case there are eight elements in the array so it gives us back `8`. `primeNumbers.join(" | "))` takes your whole array and makes it into one string. The `" | "` paramenter I'm passing is what I want put between each element, so you end up with the string `"1 | 2 | 3 | 5 | 7 | 11 | 13 | 17"`.
 
 So what if I want to add an element to the array after I've created. Use `push`!
 
