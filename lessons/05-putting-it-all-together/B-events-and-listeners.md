@@ -49,7 +49,7 @@ input.addEventListener("keyup", function () {
 
 Try typing into the input. You'll see whatever text you type into the input will instantly be reflected in the `p` tag. Pretty cool, right?
 
-- We're now using the `keyup` event. This event happens whenever you release a key after pressing it. As you may guess, there is a `keydown` event too that is fired whenver you press a key. We're using `keyup` because `keydown` happens _before_ a key actually registers which means we would always be one key behind.
+- We're now using the `keyup` event. This event happens whenever you release a key after pressing it. As you may guess, there is a `keydown` event too that is fired whenever you press a key. We're using `keyup` because `keydown` happens _before_ a key actually registers which means we would always be one key behind.
 - We're reference `input.value`. The value property of an input reflects whatever the user has typed into the input.
 - We're taking whatever is in `input.value` and passing that directly into the `paragraph.innerText`. Since that function is called every time a user types into the input, it keeps the two in sync!
 
