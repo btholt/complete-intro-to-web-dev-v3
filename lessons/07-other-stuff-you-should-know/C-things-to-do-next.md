@@ -7,7 +7,7 @@ You have reached the end of this course! Congratulations!!
 Here are some suggestions on courses to take next. [Or follow the lovely learning paths on Frontend Masters.][paths]
 
 - How to use a CLI, bash and Linux. [Luckily for you I already have a course on it!][linux].
-- How to use Git well. [See Nina's coursea.][nina]
+- How to use Git well. [See Nina's course.][nina]
 - Deploy your code so you can see it from the web. [I like Jem's course][jem].
 - Learn some Node.js to understand how servers work. [Scott's course is amazing][scott].
 - Try a framework. Good ones to try are [React (my course)][react], [Vue][vue], [Svelte][svelte], or [Angular][angular].

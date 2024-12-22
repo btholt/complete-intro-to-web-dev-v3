@@ -77,7 +77,7 @@ We're going to talk about what is call the **box model** of CSS. This is one of 
 
 Every tag in CSS has a `display` property associated with it by default. In fact, CSS has a lot of hidden defaults, just like by-default all text's color is black. With `display`, it varies by what type of tag we're talking about. `div`s are `display: block;` by default while `span`s are `display: inline;` and this makes sense given their functions. However, being that we have access to CSS, we can manipulate a `span` to act like a `div` and vice-versa (though usually you'd just use the appropriate tag.) We'll list out a few of the options here of what `display` can be.
 
-- `inline` – Like it sounds, it makes whatever the `tag` is behave like text. If you I want to style some text inline, this is how to do. The key here is the browser will determine all the height, width, padding, margins, etc. for you and **will not let you change it**. This is a common pitfall for those learning. If you have something and you're trying to set the width or height and it's not respecting it, it's probably the wrong `display` type.
+- `inline` – Like it sounds, it makes whatever the `tag` is behave like text. If you want to style some text inline, this is how to do. The key here is the browser will determine all the height, width, padding, margins, etc. for you and **will not let you change it**. This is a common pitfall for those learning. If you have something and you're trying to set the width or height and it's not respecting it, it's probably the wrong `display` type.
 - `block` – `div`s and `p`s by default are `display: block;`. This give you control over the height, width, padding, margins, etc. of something. By default, something that is `block` takes the whole line to itself.
 - `inline-block` – A hybrid of the previous two. This will make browser try to place the tag inline, but will still allow you to control the height, width, padding, and margins. Like this box: <div class="long-inline-box"></div> This wouldn't be possible with either of the previous.
 - `flex` and `inline-flex` – Similar to `block` in that it affects the tags around it like `block` does, however it gains some new super power on how its interior tags are layed out. There's a section where we'll talk about `flex`.
@@ -125,6 +125,8 @@ This will make everything use the `border-box` sizing instead of the default one
 
 There are a few ways to accomplish layouts. We'll briefly discuss two: floats and flex. There is also grid, but it's still new which means a significant of people's computers don't support it and the best practices for it are still being ironed out. In addition, you don't need it right away.
 
+> Note: CSS Grid is now full supported. Learn more in our [Ultimate CSS Grid & Layout Techniques course](https://frontendmasters.com/courses/css-grid/)
+
 We're going to be using these boxes a lot over the next examples. Here's the CSS if you want to play with them:
 
 ```html
@@ -158,7 +160,7 @@ We're going to be using these boxes a lot over the next examples. Here's the CSS
 
 ### Floats
 
-The old, bullet-proof of laying things is using a property called `float`. The idea behind float is you'll an element to push itself as far left or right as possible, and once it's out of space, go to the next line. I'll put an example on the line below. Try resizing your browser horizontally and see the boxes re-arrange themselves.
+The old, bullet-proof way of laying things is using a property called `float`. The idea behind float is you'll tell an element to push itself as far left or right as possible, and once it's out of space, go to the next line. I'll put an example on the line below. Try resizing your browser horizontally and see the boxes re-arrange themselves.
 
 ```html
 <style>

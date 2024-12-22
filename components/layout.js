@@ -26,7 +26,7 @@ function Layout({ children }) {
         </div>
         <Script
           strategy="beforeInteractive"
-          src="https://storage.googleapis.com/app.klipse.tech/plugin_prod/js/klipse_plugin.min.js"
+          src="/complete-intro-to-web-dev-v3/js/klipse/klipse_plugin.min.js"
         />
         <script
           async

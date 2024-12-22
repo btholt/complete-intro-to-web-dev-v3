@@ -2,7 +2,7 @@
 description: ""
 ---
 
-A good craftperson needs reliable tools. Let's get you set up and going. I have opinions, and as a person who has been teaching people how to code for over a decade, I think I have pretty good opinions on what tools you should use. That said, I will give you a few options and you can choose. If you know what you are doing, feel free to stick with what you know. If you don't, I suggest at least for this class use the tools I am using and then later revisit what tools you're using.
+A good craftsperson needs reliable tools. Let's get you set up and going. I have opinions, and as a person who has been teaching people how to code for over a decade, I think I have pretty good opinions on what tools you should use. That said, I will give you a few options and you can choose. If you know what you are doing, feel free to stick with what you know. If you don't, I suggest at least for this class use the tools I am using and then later revisit what tools you're using.
 
 ## The Code Editor
 
@@ -12,7 +12,7 @@ I admit some bias here as I used to be a program manager on the VS Code team. It
 
 Alternatives:
 
-- [Sublime Text][st]: I used this editor for years. Similar in style to VS Code. Also has a great ecosystem and is a fast editor. It's free to evaluate (indefinitely as far as I know) and then they ask you to pay $99 every three years. IMO a fair price for a such an important tool.
+- [Sublime Text][st]: I used this editor for years. Similar in style to VS Code. It also has a great ecosystem and is a fast editor. It's free to evaluate (indefinitely as far as I know) and then they ask you to pay $99 every three years. IMO a fair price for such an important tool.
 - [WebStorm][ws]: Sublime and VS Code's MO is more "here's a useful editor and not much more" whereas WebStorm is much "here's a useful editor and the kitchen sink". Whereas with VS Code you will likely install a few plugins to get everything you need, WebStorm will likely ship already with everything you need. You'll need to decide which approach suits you better. $60/year to use.
 - [Nova][nova] - I confess I'm far less familiar with Nova but it seems worth talking about. It's a very new product that in my view fills the gap between VS Code and WebStorm. I'm interested to see how they evolve. $99/year.
 - [vim][vim] and [emacs][emacs] - Don't use these … Okay, now that I've said that I've either made you mad and you're going to do it anyway or you're going to take my advice and not do it. These two tools are very difficult to learn and if you're taking this class you're already learning some difficult concepts and you don't want to layer in more difficulty. If you're going to learn them, take the time to focus and learn just them.
@@ -41,8 +41,6 @@ Something really important is that you choose to learn from good sources. Just l
 - If I'm working with a library or a framework, it's a good idea to head directly to their [GitHub][gh] (we'll talk about GitHub later) page or their official documentation. It's best to head straight to the source.
 
 Frontend Masters also puts out a really awesome book every year called the [Frontend Handbook][handbook]. It's a good way to get an overview of the whole industry.
-
-## Other Recommendations
 
 [code]: https://code.visualstudio.com/
 [ws]: https://www.jetbrains.com/webstorm/

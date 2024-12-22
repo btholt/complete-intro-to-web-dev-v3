@@ -21,7 +21,7 @@ So let's explore some of the essential tag types.
   sapiente in optio quia inventore quis maxime ullam tenetur?
 </p>
 <p>
-  Maxime quibusdam, dolorum quaerat ducimus inventore sunt pariatur et ea dolore
+  Maxime quibusdam, dolorum quaerat ducimus inventore sunt pariatur et dolore
   ipsam. Distinctio eum nobis officiis quam quasi exercitationem eaque?
 </p>
 ```
@@ -46,7 +46,7 @@ So let's explore some of the essential tag types.
 <p>This is <span style="text-decoration: underline">important</span> text</p>
 ```
 
-`ol`, `ul`, and `li` – Both `ol` and `ul` represent lists. In fact, this list of various tags is a `ul`! A `ul` is an unordered list: it's a list of things that could be shuffled and still mean the same thing. If I asked you to list all the teams in a sports league, or all the characters on a TV show, those could be presented in any order. An `ol` is an organized list: what comes first matters. If I ask you to list out the ten most populous cities in the world, there is an order to that and changing the order makes the list incorrect. In either list, each item in the list is an `li`. Example: `<ul><li>Bob</li><li>Eve</li><li>Alice</li></ul>`
+`ol`, `ul`, and `li` – Both `ol` and `ul` represent lists. In fact, this list of various tags is a `ul`! A `ul` is an unordered list: it's a list of things that could be shuffled and still mean the same thing. If I asked you to list all the teams in a sports league, or all the characters on a TV show, those could be presented in any order. An `ol` is an ordered list: what comes first matters. If I ask you to list out the ten most populous cities in the world, there is an order to that and changing the order makes the list incorrect. In either list, each item in the list is an `li`. Example: `<ul><li>Bob</li><li>Eve</li><li>Alice</li></ul>`
 
 ```html
 <ol>
@@ -100,13 +100,13 @@ So let's explore some of the essential tag types.
 <input type="checkbox" />
 ```
 
-`textarea` – Similar to an input but for a lot more text. You'd type long-form responses in here that could linebreaks in it (a linebreak happens when you hit "return" or "enter" on your keyboard.) Despite never having anything inside of a `textarea`, it is not a self-closing tag. HTML is a really old language and so we have to live with some old quirks. Example: `<textarea></textarea>`
+`textarea` – Similar to an input but for a lot more text. You'd type long-form responses in here that could have linebreaks in it (a linebreak happens when you hit "return" or "enter" on your keyboard.) Despite never having anything inside of a `textarea`, it is not a self-closing tag. HTML is a really old language and so we have to live with some old quirks. Example: `<textarea></textarea>`
 
 ```html
 <textarea></textarea>
 ```
 
-`select` and `option` — Sometimes you want to limit a user to a certain group of options to select from. What country you're from, what month you were born in, etc. A `select` is a user-interactive input that a user can select an option from a dropdown menu. An `option` is one of the available options. Each `option` needs a value that will be sent back to the server if the user select that `option`. What's inside of the option is what shown to the user. Example: `<select><option value="seattle">Seattle</option><option value="portland">Portland</option><option value="san-francisco">San Francisco</option></select>`
+`select` and `option` — Sometimes you want to limit a user to a certain group of options to select from. What country you're from, what month you were born in, etc. A `select` is a user-interactive input that a user can select an option from a dropdown menu. An `option` is one of the available options. Each `option` needs a value that will be sent back to the server if the user selects that `option`. What's inside of the option is what shown to the user. Example: `<select><option value="seattle">Seattle</option><option value="portland">Portland</option><option value="san-francisco">San Francisco</option></select>`
 
 ```html
 <select>
@@ -196,4 +196,4 @@ Incorrect:
 </p>
 ```
 
-The `br` tag is a linebreak tag and used it be very common. However this is no longer the correct way to do it (but you'll still see it around.) It will occasionally be useful and you'll see it in documentation sometimes so I wanted you to know that it exists, it works, and it's not the preferred way of doing linebreaks.
+The `br` tag is a linebreak tag and it used to be very common. However this is no longer the correct way to do it (but you'll still see it around.) It will occasionally be useful and you'll see it in documentation sometimes so I wanted you to know that it exists, it works, and it's not the preferred way of doing linebreaks.

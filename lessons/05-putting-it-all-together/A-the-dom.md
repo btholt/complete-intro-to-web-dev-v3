@@ -62,9 +62,9 @@ const redSquare = document.querySelector(".red-square");
 redSquare.style.backgroundColor = "limegreen";
 ```
 
-Notice that, despite the CSS class dicatating that the `div` should be `crimson` colored, it's actually `limegreen`. This is because we used JavaScript to change the color of it. So let's break it down.
+Notice that, despite the CSS class dictating that the `div` should be `crimson` colored, it's actually `limegreen`. This is because we used JavaScript to change the color of it. So let's break it down.
 
-- We called a method on `document`. `document` is a globally available variable in the browser that you use to interact with the HTML and CSS. It a lot of methods that you can use. In this case, we're using the `querySelector` in which you pass in a CSS selector and it returns to you the **first** one of that matches selector that it finds (if you have many of them on the page, you get just the first one.)
+- We called a method on `document`. `document` is a globally available variable in the browser that you use to interact with the HTML and CSS. It has a lot of methods that you can use. In this case, we're using the `querySelector` in which you pass in a CSS selector and it returns to you the **first** one of that matches selector that it finds (if you have many of them on the page, you get just the first one.)
 - From there, we have a JavaScript pointer to the `div.red-square` tag stored in the `redSquare` variable which means we can start manipulating it.
 - We then use the `style` object which represents all the CSS styles that are being applied to that object at that time.
 - We then set the `backgroundColor` of that element. Notice it is `backgroundColor` and not `background-color` (camelCasing vs kebab-casing). This is how you interact with CSS via JavaScript. Anything that's kebab-cased like `padding-right` becomes camelCased, like `paddingRight`. While annoying, it'd be even more annoying if they didn't switch it since everything in JavaScript is camelCased.

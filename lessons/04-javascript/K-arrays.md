@@ -20,7 +20,7 @@ console.log(daysOfTheWeek[1]);
 console.log(daysOfTheWeek[6]);
 ```
 
-You first can see how we declare an array, using `[ ]`. Inside of an array, you can store anything you can store in a variable. You can have an array of numbers, an arry of strings, an array of objects, an array of arrays, an array of arrays of arrays, etc.
+You first can see how we declare an array, using `[ ]`. Inside of an array, you can store anything you can store in a variable. You can have an array of numbers, an array of strings, an array of objects, an array of arrays, an array of arrays of arrays, etc.
 
 You can also see above how we access individual elements in an array: we use square brackets again and then we reference the number that we want to access. Again, remember, the numbering starts at 0. So the first element is index 0.
 
@@ -32,7 +32,7 @@ console.log(primeNumbers.length);
 console.log(primeNumbers.join(" | "));
 ```
 
-`primeNumbers.length` gives you back an number that is how long the array is. In this case there are eight elements in the array so it gives us back `8`. `primeNumbers.join(" | "))` takes your whole array and makes it into one string. THe `" | "` paramenter I'm passing is what I want put between each element, so you end up with the string `"1 | 2 | 3 | 5 | 7 | 11 | 13 | 17"`.
+`primeNumbers.length` gives you back an number that is how long the array is. In this case there are eight elements in the array so it gives us back `8`. `primeNumbers.join(" | "))` takes your whole array and makes it into one string. The `" | "` paramenter I'm passing is what I want put between each element, so you end up with the string `"1 | 2 | 3 | 5 | 7 | 11 | 13 | 17"`.
 
 So what if I want to add an element to the array after I've created. Use `push`!
 

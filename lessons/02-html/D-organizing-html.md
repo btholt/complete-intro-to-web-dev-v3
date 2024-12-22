@@ -19,7 +19,7 @@ Let's say you're making a social media website and you're going to make the "new
 </div>
 ```
 
-Notice we keep everything together with a div. Like I said before, it's a container, a cardboard box. We have a post and keep it all together with an encapsulating div. We also could have used the `<article></article>` tag. What's the difference between article and div? As far as the browser is concerned, nothing. Keep in mind that you just write code once, you also have to go back later and maintain it. What if there's a bug later and you need to debug what's wrong with it? It's good to write code that makes it every obvious what you're trying to do. In this case, article lets your future self (or coworkers) know that this is a self-contained bit of content. Divs have no meaning. Like a cardboard box, it's what is inside that matters. An article is a cardbox with a label on it that says it's a self-contained bit of content. Both are valid here, but let's roll with divs (since you'll more commonly see that.)
+Notice we keep everything together with a div. Like I said before, it's a container, a cardboard box. We have a post and keep it all together with an encapsulating div. We also could have used the `<article></article>` tag. What's the difference between article and div? As far as the browser is concerned, nothing. Keep in mind that you just write code once, you also have to go back later and maintain it. What if there's a bug later and you need to debug what's wrong with it? It's good to write code that makes it very obvious what you're trying to do. In this case, article lets your future self (or coworkers) know that this is a self-contained bit of content. Divs have no meaning. Like a cardboard box, it's what is inside that matters. An article is a cardbox with a label on it that says it's a self-contained bit of content. Both are valid here, but let's roll with divs (since you'll more commonly see that.)
 
 Let's make this better. Let's add classes.
 
@@ -84,7 +84,7 @@ What's more, this is reusable now. We could have a full feed of these.
 </div>
 ```
 
-Now I used a div to enclose the entire social feed, and then I reused our structure from above to remake a bunch of the same post. Pretty neat, huh? We build one component and then reuse it over and over again. I imagine then we'd put the `social-feed` div inside another `news` component and then that inside of our `app` page. Our `app` div might a navbar, the news div, a footer, a sidebar, and other things. But we'd just do nested things like we did with our `social-feed`.
+Now I used a div to enclose the entire social feed, and then I reused our structure from above to remake a bunch of the same post. Pretty neat, huh? We build one component and then reuse it over and over again. I imagine then we'd put the `social-feed` div inside another `news` component and then that inside of our `app` page. Our `app` div might have a navbar, the news div, a footer, a sidebar, and other things. But we'd just do nested things like we did with our `social-feed`.
 
 Let's construct a navbar for fun.
 

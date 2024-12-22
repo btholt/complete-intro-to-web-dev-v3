@@ -2,7 +2,7 @@
 description: ""
 ---
 
-Let's do a quick intro to grid, the latest-and-greatest way to do layouts with CSS. Grid shares a bit of similarities with flex but it's more oriented to making grids layouts as opposed to flex which is more flexible in terms of what you can get it to do. In short, grid is useful is more laying out a page (which are frequently grid-like) whereas flex is more flexible (if a bit more compliacted) and is more useful when you have more unique layouts to achieve.
+Let's do a quick intro to grid, the latest-and-greatest way to do layouts with CSS. Grid shares a bit of similarities with flex but it's more oriented to making grids layouts as opposed to flex which is more flexible in terms of what you can get it to do. In short, grid is more useful for laying out a page (which are frequently grid-like) whereas flex is more flexible (if a bit more complicated) and is more useful when you have more unique layouts to achieve.
 
 ```html
 <style>
@@ -43,10 +43,10 @@ Let's do a quick intro to grid, the latest-and-greatest way to do layouts with C
 </div>
 ```
 
-This is a very basic grid where we we're making a 2x2 grid.
+This is a very basic grid where we were making a 2x2 grid.
 
 - `row-gap` and `column-gap` are how you do gutters in grid i.e. the space between items in the grid
-- `grid-template-column` allows you you to set up how the grid is constructed. You can do it in percentages, pixels, or fr which stands for fractions. With with two `1fr` we made it so each piece will take 50% of the space minus the gutters which it will calculate for you. If we did `1fr 2fr 1fr` the first column would take 25%, the second 50%, the third 25%. The math works like `flex-grow`.
+- `grid-template-column` allows you to set up how the grid is constructed. You can do it in percentages, pixels, or fr which stands for fractions. With two `1fr` we made it so each piece will take 50% of the space minus the gutters which it will calculate for you. If we did `1fr 2fr 1fr` the first column would take 25%, the second 50%, the third 25%. The math works like `flex-grow`.
 - Just like block and flex, there is an `inline-grid` too.
 
 This was a basic example. Let's do a more complicated example. Let's say you're laying out your whole webpage using grid (a common use case for it.)
@@ -93,7 +93,7 @@ This was a basic example. Let's do a more complicated example. Let's say you're 
 </div>
 ```
 
-- `grid-area` allows you to name a section and refer to it later as that. It doesn't need to match the class name (but it can, they have have nothing to do with each other.)
+- `grid-area` allows you to name a section and refer to it later as that. It doesn't need to match the class name (but it can, they have nothing to do with each other.)
 - We used `grid-template-columns` before. `grid-template-areas` allows you to do a similar thing but to refer to the columns by name. As you can see here, it also allows us to have columns that reach across rows. Pretty neat.
 - The `.` here just refers to an empty cell.
 - You don't have to do the lined-up spacing like I did (I normally don't) but I wanted it to be clear for you.

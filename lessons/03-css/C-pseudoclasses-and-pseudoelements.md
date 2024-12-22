@@ -6,7 +6,7 @@ description: ""
 
 Some times we want to change how elements look based on certain events that happen in the DOM. One of the most common ones is we want to change an element when someone hovers their mouse over it. Like this box:
 
-The see we used for this is this:
+The CSS we used for this is this:
 
 ```html
 <style>
@@ -57,7 +57,7 @@ We're not going to dwell too much on pseudoelements as they are a bit of an adva
 <div class="chapter">This is a second chapter of my book.</div>
 
 <style>
-  .chapter p {
+  .chapter {
     margin: 0;
   }
   .chapter::after {
@@ -78,4 +78,4 @@ Every element has a `::before` and an `::after`. You can use these _pseudoelemen
 Again, not the most common thing to do, just wanted you to be aware of it. You will in old code and documentation see `:before` and `:after` but these are old and now are `::before` and `::after` so that pseudoclasses (like `:hover`) and pseudoelements (like `::after`) can be disambiguated by syntax.
 
 [pseudoclasses]: https://css-tricks.com/pseudo-class-selectors/
-[pseudoelements]: https://css-tricks.com/almanac/selectors/a/after-and-before/
+[pseudoelements]: https://css-tricks.com/almanac/pseudo-selectors/b/after-and-before/

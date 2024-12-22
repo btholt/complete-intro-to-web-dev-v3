@@ -62,9 +62,9 @@ description: ""
   }
 </style>
 
-`display: flex;` is a display mode for CSS. It's to note that when you stick `display: float`, it allows you to to change the layout **inside** the tag. It allows you to change the layout of its children. Externally, it acts just like `block`. Likewise there is a `inline-flex` which acts just like `display: inline-block` externally.
+`display: flex` is a display mode for CSS. It's to note that when you stick `display: flex`, it allows you to change the layout **inside** the tag. It allows you to change the layout of its children. Externally, it acts just like `block`. Likewise there is a `inline-flex` which acts just like `display: inline-block` externally.
 
-Flex allows for a lot of interesting patterns but we're going to scratch the surface today. Take [Jen Kramer's course][jen] or read the [CSS Tricks article][flex] to learn more. We're going to explore same case today. Flex lets you tell CSS how to lay out the items inside a tag. We can tell the them to be left aligned, bottom aligned, center aligned, whatever you want. You can even throw them into columns. I think this is best taught by example so let's just throw a bunch on the page. All of them will have the following CSS:
+Flex allows for a lot of interesting patterns but we're going to scratch the surface today. Take [Jen Kramer's course][jen] or read the [CSS Tricks article][flex] to learn more. We're going to explore same case today. Flex lets you tell CSS how to lay out the items inside a tag. We can tell them to be left aligned, bottom aligned, center aligned, whatever you want. You can even throw them into columns. I think this is best taught by example so let's just throw a bunch on the page. All of them will have the following CSS:
 
 ```html
 <style>
@@ -132,7 +132,7 @@ Okay, so now we've done columns, (also, `column-reverse` works as you would expe
 </div>
 ```
 
-This is basically right-justified. Notice this is different from the reversed one about because the items stayed in the same order. By default, the `justify-content` is `flex-start` which is like left-justified.
+This is basically right-justified. Notice this is different from the reversed one above because the items stayed in the same order. By default, the `justify-content` is `flex-start` which is like left-justified.
 
 ```html
 <style>
@@ -222,7 +222,7 @@ Vertically centering something previous to flex was a nightmare. Seriously, Goog
 
   /* remove the height from the three boxes */
   .no-height {
-    height: inherit;
+    height: unset;
   }
 </style>
 <div class="flex-container ai-stretch">
@@ -239,7 +239,7 @@ For this one I did have to remove the heights from the boxes or it overrules the
 ```html
 <style>
   .ai-grow {
-    // nothing necessary here
+    /* nothing necessary here */
   }
 
   .ai-grow .box-1 {
