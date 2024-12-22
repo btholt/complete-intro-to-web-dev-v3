@@ -53,7 +53,7 @@ Okay, now that you have requirements, let's go over some tips and hints.
 
 A brief note on what is called **types** in JavaScript. We've danced the idea already and I want to make it a little more concrete for you. Strings, booleans, objects, arrays, numbers, these are different types of types (lol). JavaScript is a language where you don't have to concern yourself _a lot_ with types since it doesn't strictly enforce them (other languages do) but in this problem you are definitely going to have to deal with it.
 
-Whatever you put into the DOM and whatever you get out it are going to strings, every time. If I do:
+Whatever you put into the DOM and whatever you get out of it are going to be strings, every time. If I do:
 
 <div class="number-target"></div>
 
