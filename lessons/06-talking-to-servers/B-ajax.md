@@ -67,7 +67,7 @@ Let's dissect this.
 
 Requests take time. The process of calling out to the Internet, reaching the server, the server processing, responding, and coming back takes time. It could be very fast. It could be a minute. You don't know until it happens. You need to have the ability to _wait_ in your code. This is called async code, the A in AJAX.
 
-JavaScript has several ways of dealing with this. We're using a way called promises. A promise represents a future value. With a promise, you can give it a function with its `then` function to run whenever it gets its ansewr back. In this case, we say "hey, you're going to get some text back from this API, so we need that text.
+JavaScript has several ways of dealing with this. We're using a way called promises. A promise represents a future value. With a promise, you can give it a function with its `then` function to run whenever it gets its answer back. In this case, we say "hey, you're going to get some text back from this API, so we need that text.
 
 `fetch` is a function (builtin for the browser) that allows you to give it a URL like `https://dog.ceo/api/breeds/image/random` and it will try to get information from that API. In this case we're asking for a random image of a dog.
 
