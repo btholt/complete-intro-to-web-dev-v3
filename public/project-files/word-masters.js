@@ -31,7 +31,7 @@ async function init() {
       letter;
   }
 
-  // use tries to enter a guess
+  // user tries to enter a guess
   async function commit() {
     if (currentGuess.length !== ANSWER_LENGTH) {
       // do nothing
