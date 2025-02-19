@@ -36,6 +36,7 @@ Make a new CSS file, put:
   height: 100px;
   background-color: #0074d9;
   border-radius: 50%;
+  position: relative;
 }
 
 body {
