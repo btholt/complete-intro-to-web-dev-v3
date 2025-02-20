@@ -3,7 +3,7 @@ const ROUNDS = 6;
 const letters = document.querySelectorAll(".scoreboard-letter");
 const loadingDiv = document.querySelector(".info-bar");
 
-// I like to do an init function so I can use "await"
+// I like to do an async init function so I can use "await"
 async function init() {
   // the state for the app
   let currentRow = 0;
@@ -31,7 +31,7 @@ async function init() {
       letter;
   }
 
-  // use tries to enter a guess
+  // user tries to enter a guess
   async function commit() {
     if (currentGuess.length !== ANSWER_LENGTH) {
       // do nothing
