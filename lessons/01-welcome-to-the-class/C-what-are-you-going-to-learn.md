@@ -10,13 +10,13 @@ HTML stands for hypertext markup language. You can think of it as the content on
 
 If we were building a car together, you could think of the HTML as the materials we used to build the car: the frame, the doors, the steering wheel, the tires, etc. By themselves, the materials are inert: they don't _do_ anything by themselves or look particularly. They need to be arranged into a coherent car (via CSS) and it needs an engine with all the wiring (via JavaScript) to actually do anything.
 
-## What is CSS
+## What is CSS?
 
 CSS stands for cascading stylesheets. You can think of it as the _style_ of a website. What type of font is being used, what the background color is, what is bolded, what the spacing is, what the layout is, etc. CSS is basically just a series of rules that says "if an element matches this selector, apply this style."
 
 Continuing our car metaphor, the CSS would be what color the car is, what the various trimmings are, and all the styling details. You could even say it would define if it's left or right drive.
 
-## What is JavaScript
+## What is JavaScript?
 
 You can have a complete webpage without any JavaScript, with just CSS and HTML. [Example.com][example] is an example of a totally valid website that has zero JavaScript on it. Lots of websites that don't need JavaScript do. We'll get into it later, but just know not everything needs JavaScript.
 
