@@ -233,7 +233,7 @@ header .cta-btn {
   text-decoration: underline;
 }
 
-.lesson a:hover, 
+.lesson a:hover,
 .lesson a:active {
   text-decoration: none;
 }
@@ -258,7 +258,9 @@ header .cta-btn {
   max-width: 300px;
 }
 
-.lesson p, .lesson ul, .lesson ol {
+.lesson p,
+.lesson ul,
+.lesson ol {
   clear: both;
   margin-bottom: 20px;
 }
@@ -523,7 +525,7 @@ ol.sections-name .lesson-details {
   margin-left: 15px;
 }
 
-.lesson li { 
+.lesson li {
   margin-left: 40px;
 }
 
@@ -565,6 +567,13 @@ ol.sections-name .lesson-details {
 
 .klipse-result li {
   list-style-position: inside;
+}
+
+/* overflow content handling in klipse-result */
+.klipse-result > * {
+  overflow-x: auto;
+  white-space: pre-wrap;
+  word-break: break-all;
 }
 
 .support-tweet {
