@@ -2,7 +2,7 @@
 description: ""
 ---
 
-We'll talk about scope multiple times but we'll start off here with it. Every time you call a function, it has its own scope. Other things can't peek into it; it just has its own little workspace for it work with. Once its done, any variable that you haven't explicitly held on to or returned at the end is discarded. For example:
+We'll talk about scope multiple times but we'll start off here with it. Every time you call a function, it has its own scope. Other things can't peek into it; it just has its own little workspace for it to work with. Once its done, any variable that you haven't explicitly held on to or returned at the end is discarded. For example:
 
 ```javascript
 function addFive(number) {
